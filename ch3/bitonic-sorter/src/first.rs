@@ -5,7 +5,6 @@ pub fn sort(x: &mut [u64], up: bool) {
         sort(&mut x[mid_point..], false);
         sub_sort(x, up);
     }
-
 }
 
 fn sub_sort(x: &mut [u64], up:bool) {
